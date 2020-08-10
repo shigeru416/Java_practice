@@ -1,29 +1,13 @@
-package animal.dog;
+package a.animal;
 
-public class Dog {
+public class Dog extends Animal {
 
-	private String name;
-	private int age;
-
-	public Dog(String name, int age) {
-		this.name = name;
-		this.age = age;
+	//引数なしのコンストラクタ
+	public Dog() {
+		this.name = "犬";
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void cry() {
+		System.out.println(this.name+"が吠えました。ワンワン！");
 	}
-
-	public String getName() {
-	        return this.name;
-	    }
-
-	public void setAge(int age) {
-	        this.age = age;
-	    }
-
-	public int getAge() {
-	        return this.age;
-	    }
-
 }
