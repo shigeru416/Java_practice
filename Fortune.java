@@ -17,5 +17,6 @@ public class Fortune {
 		System.out.println("占いの結果が出ました");
 		System.out.println(age+"際の"+name+"さんのあなたの運気番号は"+fortune+"です。");
 		System.out.println("1:大吉 2:中吉 3:吉 4:凶");
+		System.out.println("いかがでしたか。再度挑戦してみますか？")
 	}
 }
